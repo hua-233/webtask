@@ -1,0 +1,253 @@
+*{
+    /*background-color: #5F822F;*/
+}
+#ha2{
+    position:absolute;
+    left: 1400px;
+    text-decoration: none;
+}
+#ha2:hover{
+    background-color: aqua;
+}
+
+header{
+    height: 150px;
+    background-image: url("image/header01.jpg");
+    background-repeat: round;
+}
+#hah{
+    text-decoration: none;
+}
+
+#hah:hover{
+    background-color: aqua;
+}
+
+#hh{
+    color: coral;
+    position:absolute;
+    left:100px;
+    top: 30px;
+}
+nav{
+    width: 1000px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+    height: 40px;
+    font-size: x-large;
+    font-weight: 800;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 12px 50px;
+    /*padding: 1px 5px;*/
+}
+
+nav ul li a:hover{
+background-color: burlywood;
+
+}
+
+.nud{
+    display: inline-block;
+}
+
+.nudd{
+    display: none;
+    position: absolute;
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+.nud:hover .nudd{
+    display: block;
+}
+
+
+.nudd a:hover{
+    background-color: aquamarine;
+
+
+}
+
+.nuda{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nuda:hover{
+    background-color: burlywood;
+}
+
+.nudd a{
+    display: block;
+    color: crimson;
+    padding: 12px 50px;
+    text-decoration: none;
+}
+
+.box{
+    display: flex;
+}
+
+
+
+@-webkit-keyframes myfirst {
+    0%{
+        background-image: url("image/wuy00.jpg");
+
+    }
+
+    25%{
+        background-image: url("image/wuy01.jpg");
+    }
+    50%{
+        background-image: url("image/wuy02.jpg");
+    }
+
+    75%{
+        background-image: url("image/wuy03.jpg");
+    }
+}
+
+
+#ha1{
+    flex: 60%;
+    width:60%;
+    height:450px;
+    background-size: 100%;
+    background-image:url("image/wuy00.jpg") ;
+    -webkit-animation: myfirst 8s infinite;
+}
+
+#ha3{
+flex: 40%;
+}
+#ad{
+    padding-left: 20px;
+}
+
+.tab01 td{
+    border:2px solid;
+    border-color: blueviolet;
+    background-color: aquamarine;
+    height: 50px;
+}
+.tab02 td{
+    border:2px groove;
+    border-color: bisque;
+    background-color: bisque;
+    height: 50px;
+}
+.box01{
+    display: flex;
+}
+.new{
+    flex: 60%;
+}
+.new h3{
+    color: red;
+}
+.register{
+    flex: 40%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#nd{
+    padding-top: 10px;
+    width: 900px;
+    height:83px;
+
+}
+
+#ba1{
+    float: left;
+}
+#ba2{
+    float: left;
+    padding-left: 50px;
+}
+#ba3{
+    float: left;
+    padding-left: 50px;
+}
+
+@keyframes mysec {
+    0%{
+        transform:scale(0.7);}
+    25%{
+        transform:scale(1);  }
+
+}
+
+#na{
+    width:250px;
+    height:200px;
+}
+#na:hover{
+    animation: mysec 5s linear infinite;
+}
+#na1{
+    width:250px;
+    height:200px;
+}
+#na1:hover{
+    animation: mysec 5s linear infinite;
+}
+#na2{
+    width:250px;
+    height:200px;
+}
+#na2:hover{
+    animation: mysec 5s linear infinite;
+}
+#ri{
+    padding-top: 1px;
+    width: 400px;
+    height:83px;
+}
+#fo{
+    padding-top: 20px;
+}
+.dbd{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+#zc{
+    padding-left: 80px;
+}
+#nei{
+    padding-top: 10px;
+}
+.nd{
+    padding-left: 30px;
+}
+.box03{
+    display: flex;
+}
+#nea02{
+    float: left;
+    padding-left: 80px;
+}
+
+.intd{
+    padding-left: 80px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #83B441;
+    height: 50px;
+}
